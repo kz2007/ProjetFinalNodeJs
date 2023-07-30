@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+body{
+  background-color: rgb(241, 241,241);
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+.NavBar{
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.LinkDiv a{
+  margin-left: 40px;
+  color: #856143;
+  font-size: 24px;
+}
+
+.LinkDiv{
+  margin-right: 40px;
+}
+
+
+.LogoDiv h1{
+  color: #856143;
+  font-size: 26px;
+  margin-left: 12px;
+}
+
+.LogoDiv{
+  color: #856143;
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+
+header{
+  margin: 20px 0px;
+  background-color: #F4DFBA;
+  display: flex;
+  height: min-content;
+}
+
+.FullLogo{
+  text-align: center;
+  margin: auto;
+  
+}
+
+::-moz-selection { /* Code for Firefox */
+  background: #EEC373;
+}
+
+::selection {
+  background: #EEC373;
+}
+
+.SearchBar{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 36px;
+  width: 26%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.SearchBar input{
+  border: 2px solid #856143;
+  border-radius: 6px;
+  background-color: #F4DFBA;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 32;
+  color: #856143;
+  width: 66%;
+  transition: width 0.4s ease-in-out;
+  margin-right: 5px;
+}
+
+.SearchBar button{
+  border: 2px solid #856143;
+  border-radius: 6px;
+  background-color: #EEC373;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 32;
+  color: #856143;
+}
+
+.SearchBar button:hover{
+  outline: 2px solid#EEC373;
+}
+
+
+.SearchBar input:hover{
+  outline: 2px solid#EEC373;
+  width: 92%;
+}
+
+.SearchBar input:focus{
+  outline: 2px solid#EEC373;
+  width: 92%;
+}
+
+.ProductsDisplay{
+  width: 80%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.Product{
+  width: 16%;
+  margin: 4px;
+  padding: 16px;
+  border: 2px solid #856143;
+  border-radius: 6px;
+  background-color: rgb(241, 241,241);
+  color: #CA965C;
+  
+}
+
+.textProduct{
+  display: inline;
+}
+
+.Product button{
+  background: none;
+  color: #856143;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.ProductsPagesNavButtons button{
+  border: 2px solid #856143;
+  border-radius: 6px;
+  background-color: #EEC373;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 32px;
+  color: #856143;
+  margin: 20px 8px;
+}
+.ProductsPagesNavButtons{
+  margin: 0 auto;
+  width: fit-content;
+}  
+
+.ProductsPagesNavButtons button:hover{
+  outline: 2px solid#EEC373;
+}
+
+.SingleProduct{
+  display: flex;
+  justify-content: space-around;
+  color: #856143;
+}
+
+.SingleProduct img{
+  border-radius: 5px;
+  border: 6px solid #856143;
+}
+
+.SingleProduct button{
+  border: 2px solid #856143;
+  border-radius: 6px;
+  background-color: #EEC373;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 16px;
+  color: #856143;
+  margin: 20px 8px;
+  cursor: pointer;  
+}
+
+.ShoppingCart h1{
+  color: #856143;
+}
+
+.ShoppingCart{
+  width: 70%;
+  margin: 40px auto;
+}
+
+.ShoppingCartProduct{
+  width: 100%;
+  margin: 4px;
+  padding: 16px;
+  border: 2px solid #856143;
+  border-radius: 6px;
+  background-color: rgb(241, 241,241);
+  color: #CA965C;
+  display: flex;
+  justify-content: space-around;
+}
+
+.CartTextProduct{
+  display: inline;
+}
+
+.CountChange{
+  display: flex;
+  align-items: center;
+}
+
+.CheckOut{
+  border: 2px solid #856143;
+  border-radius: 6px;
+  background-color: #EEC373;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 16px;
+  color: #856143;
+  margin: 20px 8px;
+  cursor: pointer;  
+}
+
+.SignIn h1{
+  color: #856143;
+}
+
+.SignIn{
+  width: 70%;
+  margin: 40px auto;
+}
+
+.SignIn input{
+  border: 2px solid #856143;
+  border-radius: 6px;
+  background-color: #F4DFBA;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 26px;
+  color: #856143;
+  width: 40%;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.Order{
+  width: 100%;
+  margin: 4px;
+  padding: 16px;
+  border: 2px solid #856143;
+  border-radius: 6px;
+  background-color: rgb(241, 241,241);
+  color: #CA965C;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Orders{
+  width: 70%;
+  margin: 40px auto;
+}
+
+.Orders h1{
+  color: #856143;
+}
